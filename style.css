@@ -1,1 +1,35 @@
 
+body{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+h1{
+    font-size:70px;
+}
+h2{
+    font-size: 60px;
+}
+.top-color{
+    color: tomato;
+}
+a{
+    background-color: crimson;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+section img{
+    width:100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat:no-repeat;
+}
