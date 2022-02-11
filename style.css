@@ -20,7 +20,7 @@ h2{
     border-radius: 10px; 
     font-weight:900;   
 }
-section{
+.flixible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -40,4 +40,29 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px crimson;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image:linear-gradient(tomato,darkorange);
+    border-image-slice:1;
+}
+#baby-devo{
+    border-left:5px solid;
+    border-image:linear-gradient(pink,salmon);
+    border-image-slice:1;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position:left;
+}
+.last-section-header{
+    color:#ff4500;
 }
