@@ -13,23 +13,25 @@ h2{
 .top-color{
     color: tomato;
 }
-a{
+.anchor-text{
     background-color: crimson;
     text-decoration: none;
-    padding: 15px;
-    border-radius: 10px;
-    
+    padding: 15px 20px;
+    border-radius: 10px; 
+    font-weight:900;   
 }
 section{
     display: flex;
 }
 .half-width{
     width: 50%;
+    padding-left:5%;
 }
-section img{
-    width:100%;
-}
+
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat:no-repeat;
+}
+.half-width img{
+    width:100%;
 }
